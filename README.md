@@ -19,7 +19,6 @@ This project is a web scraping tool that allows users to compare prices of a spe
 
 - Python 3.x
 - Selenium
-- pandas
 - texttable
 - Chrome WebDriver installed in the user's computer.
 - time
@@ -28,11 +27,10 @@ This project is a web scraping tool that allows users to compare prices of a spe
 1. Run the script:
     python price_comparison.py
 2. Enter the name of the product you want to compare prices for when prompted.
-3. The script will scrape Amazon and Flipkart for product information and prices, create a comparison table, and save the results in a CSV file.
+3. The script will scrape Amazon and Flipkart for product information and price and create a comparison table.
 
 ## Features
 
 - Web scraping of product information and prices from Amazon and Flipkart.
 - Price comparison table in a user-friendly format.
-- Option to save the results to a CSV file.
 
